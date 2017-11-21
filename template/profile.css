@@ -1,0 +1,41 @@
+.avatar {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+
+a:visited {
+    color: blue;
+}
+
+#avatar, #basic_info {
+    display: inline-block;
+    vertical-align:top;    
+}
+
+#basic_info #name {
+    padding-left: 10px;
+}
+
+#basic_info #name #lastname {
+    font-family: 'Lato';
+    font-weight: bold;
+    font-size: 20px;
+    border-bottom: 3px solid #3CA2DF;        
+}
+
+#basic_info #name #firstname {
+    font-family: 'Lato';
+    font-size: 20px;
+    border-bottom: 3px solid #3CA2DF;        
+}
+
+#basic_info #contact {
+    padding-top: 5px;
+}
+
+#basic_info #contact i{
+    padding-left: 10px;
+}
+
+
