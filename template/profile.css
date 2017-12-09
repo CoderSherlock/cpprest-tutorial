@@ -1,3 +1,51 @@
+body{
+    text-align: center;
+    background: #aaaaaa;
+    margin-bottom: -10%;    
+}
+
+div.frame {
+    width: 80%;
+    height: 100%;
+    background: #ffffff;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+
+div.left {
+    margin-top: 5px;
+    display: inline-block;    
+    text-align: left;
+    width: 70%;
+    /* border:1px solid #000 */
+}
+
+div.middle {
+    margin-top: 5px;
+    
+    text-align: left;    
+    display: inline-block;
+    width: 0%;
+    /* border:1px solid #000 */
+}
+
+div.right {
+    margin-top: 5px;
+    
+    text-align: left;   
+    display: inline-block;
+    width: 28%;
+    /* border:1px solid #000 */
+}
+
+
+
+
+
+
+
 .avatar {
     border-radius: 50%;
     height: 50px;
